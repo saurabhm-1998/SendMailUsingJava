@@ -25,7 +25,7 @@ public class HandleMail {
         //session
         Session mailSession = Session.getInstance(props, new Authenticator(){
             protected javax.mail.PasswordAuthentication getPasswordAuthentication(){
-                return new PasswordAuthentication(MailConstants.SENDER,"pqobqafgoixgrnbb");
+                return new PasswordAuthentication(MailConstants.SENDER,"pqobqafgoixb");
             }
         });
 
